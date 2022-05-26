@@ -1,0 +1,317 @@
+[debug] [2022-05-26T20:12:12.744Z] ----------------------------------------------------------------------
+[debug] [2022-05-26T20:12:12.745Z] Command:       /Users/arthursilva/.nvm/versions/node/v16.15.0/bin/node /usr/local/bin/firebase emulators:start
+[debug] [2022-05-26T20:12:12.745Z] CLI Version:   10.8.0
+[debug] [2022-05-26T20:12:12.745Z] Platform:      darwin
+[debug] [2022-05-26T20:12:12.746Z] Node Version:  v16.15.0
+[debug] [2022-05-26T20:12:12.746Z] Time:          Thu May 26 2022 16:12:12 GMT-0400 (Eastern Daylight Time)
+[debug] [2022-05-26T20:12:12.746Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2022-05-26T20:12:12.747Z] >>> [apiv2][query] GET https://firebase-public.firebaseio.com/cli.json [none]
+[debug] [2022-05-26T20:12:12.778Z] Field ".emulators.hosting.port" in "firebase.json" is possibly invalid: should be number
+[debug] [2022-05-26T20:12:12.780Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2022-05-26T20:12:12.780Z] > authorizing via signed-in user (arthur2335silva@gmail.com)
+[info] i  emulators: Starting emulators: functions, hosting {"metadata":{"emulator":{"name":"hub"},"message":"Starting emulators: functions, hosting"}}
+[debug] [2022-05-26T20:12:12.787Z] [hub] writing locator at /var/folders/_8/yx_r7j117s94zq1nkmkk_04r0000gn/T/hub-my-first-firestore-as.json
+[warn] ⚠  functions: The following emulators are not running, calls to these services from the Functions emulator will affect production: auth, firestore, database, pubsub, storage {"metadata":{"emulator":{"name":"functions"},"message":"The following emulators are not running, calls to these services from the Functions emulator will affect production: \u001b[1mauth, firestore, database, pubsub, storage\u001b[22m"}}
+[info] ✔  functions: Using node@16 from host. {"metadata":{"emulator":{"name":"functions"},"message":"Using node@16 from host."}}
+[debug] [2022-05-26T20:12:12.804Z] defaultcredentials: writing to file /Users/arthursilva/.config/firebase/arthur2335silva_gmail_com_application_default_credentials.json
+[debug] [2022-05-26T20:12:12.806Z] Setting GAC to /Users/arthursilva/.config/firebase/arthur2335silva_gmail_com_application_default_credentials.json {"metadata":{"emulator":{"name":"functions"},"message":"Setting GAC to /Users/arthursilva/.config/firebase/arthur2335silva_gmail_com_application_default_credentials.json"}}
+[debug] [2022-05-26T20:12:12.806Z] > refreshing access token with scopes: []
+[debug] [2022-05-26T20:12:12.806Z] >>> HTTP REQUEST POST https://www.googleapis.com/oauth2/v3/token  
+ <request body omitted>
+[debug] [2022-05-26T20:12:12.908Z] <<< HTTP RESPONSE 200 {"date":"Thu, 26 May 2022 20:12:12 GMT","pragma":"no-cache","expires":"Mon, 01 Jan 1990 00:00:00 GMT","cache-control":"no-cache, no-store, max-age=0, must-revalidate","content-type":"application/json; charset=utf-8","vary":"X-Origin, Referer, Origin,Accept-Encoding","server":"scaffolding on HTTPServer2","x-xss-protection":"0","x-frame-options":"SAMEORIGIN","x-content-type-options":"nosniff","alt-svc":"h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000,h3-Q050=\":443\"; ma=2592000,h3-Q046=\":443\"; ma=2592000,h3-Q043=\":443\"; ma=2592000,quic=\":443\"; ma=2592000; v=\"46,43\"","accept-ranges":"none","transfer-encoding":"chunked"}
+[debug] [2022-05-26T20:12:12.948Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/my-first-firestore-as/adminSdkConfig [none]
+[debug] [2022-05-26T20:12:13.028Z] <<< [apiv2][status] GET https://firebase-public.firebaseio.com/cli.json 200
+[debug] [2022-05-26T20:12:13.028Z] <<< [apiv2][body] GET https://firebase-public.firebaseio.com/cli.json {"cloudBuildErrorAfter":1594252800000,"cloudBuildWarnAfter":1590019200000,"defaultNode10After":1594252800000,"minVersion":"3.0.5","node8DeploysDisabledAfter":1613390400000,"node8RuntimeDisabledAfter":1615809600000,"node8WarnAfter":1600128000000}
+[debug] [2022-05-26T20:12:13.352Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/my-first-firestore-as/adminSdkConfig 200
+[debug] [2022-05-26T20:12:13.352Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/my-first-firestore-as/adminSdkConfig {"projectId":"my-first-firestore-as","storageBucket":"my-first-firestore-as.appspot.com","locationId":"us-central"}
+[debug] [2022-05-26T20:12:13.388Z] >>> [apiv2][query] GET https://firebasehosting.googleapis.com/v1beta1/projects/my-first-firestore-as/sites 
+[debug] [2022-05-26T20:12:13.934Z] <<< [apiv2][status] GET https://firebasehosting.googleapis.com/v1beta1/projects/my-first-firestore-as/sites 200
+[debug] [2022-05-26T20:12:13.934Z] <<< [apiv2][body] GET https://firebasehosting.googleapis.com/v1beta1/projects/my-first-firestore-as/sites {"sites":[{"name":"projects/my-first-firestore-as/sites/my-first-firestore-as","defaultUrl":"https://my-first-firestore-as.web.app","type":"DEFAULT_SITE"}]}
+[debug] [2022-05-26T20:12:13.935Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/my-first-firestore-as/webApps/-/config [none]
+[debug] [2022-05-26T20:12:14.360Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/my-first-firestore-as/webApps/-/config 200
+[debug] [2022-05-26T20:12:14.360Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/my-first-firestore-as/webApps/-/config {"projectId":"my-first-firestore-as","appId":"1:646153161260:web:b41567efed7bf588895f89","storageBucket":"my-first-firestore-as.appspot.com","locationId":"us-central","apiKey":"AIzaSyCYlLLUHWzzgqDjvRfJnDw2dOeHzjfUGP8","authDomain":"my-first-firestore-as.firebaseapp.com","messagingSenderId":"646153161260"}
+[info] i  hosting: Serving hosting files from: public {"metadata":{"emulator":{"name":"hosting"},"message":"Serving hosting files from: \u001b[1mpublic\u001b[22m"}}
+[info] ✔  hosting: Local server: http://localhost:5050 {"metadata":{"emulator":{"name":"hosting"},"message":"Local server: \u001b[4m\u001b[1mhttp://localhost:5050\u001b[22m\u001b[24m"}}
+[debug] [2022-05-26T20:12:14.725Z] Ignoring unsupported arg: auto_download {"metadata":{"emulator":{"name":"ui"},"message":"Ignoring unsupported arg: auto_download"}}
+[debug] [2022-05-26T20:12:14.726Z] Ignoring unsupported arg: port {"metadata":{"emulator":{"name":"ui"},"message":"Ignoring unsupported arg: port"}}
+[debug] [2022-05-26T20:12:14.726Z] Starting Emulator UI with command {"binary":"node","args":["/Users/arthursilva/.cache/firebase/emulators/ui-v1.6.6/server.bundle.js"],"optionalArgs":[],"joinArgs":false} {"metadata":{"emulator":{"name":"ui"},"message":"Starting Emulator UI with command {\"binary\":\"node\",\"args\":[\"/Users/arthursilva/.cache/firebase/emulators/ui-v1.6.6/server.bundle.js\"],\"optionalArgs\":[],\"joinArgs\":false}"}}
+[info] i  ui: Emulator UI logging to ui-debug.log {"metadata":{"emulator":{"name":"ui"},"message":"Emulator UI logging to \u001b[1mui-debug.log\u001b[22m"}}
+[debug] [2022-05-26T20:12:14.817Z] Web / API server started at localhost:4000
+ {"metadata":{"emulator":{"name":"ui"},"message":"Web / API server started at localhost:4000\n"}}
+[info] i  functions: Watching "/Users/arthursilva/code/restaurant-api-fork/functions" for Cloud Functions... {"metadata":{"emulator":{"name":"functions"},"message":"Watching \"/Users/arthursilva/code/restaurant-api-fork/functions\" for Cloud Functions..."}}
+[debug] [2022-05-26T20:12:14.998Z] Validating nodejs source
+[debug] [2022-05-26T20:12:15.856Z] > [functions] package.json contents: {
+  "name": "restaurants-api",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.18.1",
+    "firebase-admin": "^10.1.0",
+    "firebase-functions": "^3.21.2"
+  }
+}
+[debug] [2022-05-26T20:12:15.857Z] Building nodejs source
+[debug] [2022-05-26T20:12:15.857Z] Analyzing nodejs backend spec
+[info] ✔  functions[us-central1-api]: http function initialized (http://localhost:5001/my-first-firestore-as/us-central1/api). {"metadata":{"emulator":{"name":"functions"},"message":"\u001b[1mhttp\u001b[22m function initialized (http://localhost:5001/my-first-firestore-as/us-central1/api)."}}
+[info] 
+┌─────────────────────────────────────────────────────────────┐
+│ ✔  All emulators ready! It is now safe to connect your app. │
+│ i  View Emulator UI at http://localhost:4000                │
+└─────────────────────────────────────────────────────────────┘
+
+┌───────────┬────────────────┬─────────────────────────────────┐
+│ Emulator  │ Host:Port      │ View in Emulator UI             │
+├───────────┼────────────────┼─────────────────────────────────┤
+│ Functions │ localhost:5001 │ http://localhost:4000/functions │
+├───────────┼────────────────┼─────────────────────────────────┤
+│ Hosting   │ localhost:5050 │ n/a                             │
+└───────────┴────────────────┴─────────────────────────────────┘
+  Emulator Hub running at localhost:4400
+  Other reserved ports: 4500
+
+Issues? Report them at https://github.com/firebase/firebase-tools/issues and attach the *-debug.log files.
+ 
+[info] [hosting] Rewriting / to http://localhost:5001/my-first-firestore-as/us-central1/api for local Function us-central1/api
+[debug] [2022-05-26T20:12:44.012Z] >>> [apiv2][query] POST http://localhost:5001/my-first-firestore-as/us-central1/api/ 
+[debug] [2022-05-26T20:12:44.012Z] >>> [apiv2][body] POST http://localhost:5001/my-first-firestore-as/us-central1/api/ [stream]
+[debug] [2022-05-26T20:12:44.017Z] [work-queue] {"queueLength":1,"workRunningCount":0}
+[debug] [2022-05-26T20:12:44.017Z] [work-queue] {"queueLength":0,"workRunningCount":1}
+[debug] [2022-05-26T20:12:44.017Z] Accepted request POST /my-first-firestore-as/us-central1/api/ --> us-central1-api
+[debug] [2022-05-26T20:12:44.024Z] [worker-pool] addWorker(us-central1-api) {"metadata":{"emulator":{"name":"functions"},"message":"[worker-pool] addWorker(us-central1-api)"}}
+[debug] [2022-05-26T20:12:44.025Z] [worker-pool] Adding worker with key us-central1-api, total=1 {"metadata":{"emulator":{"name":"functions"},"message":"[worker-pool] Adding worker with key us-central1-api, total=1"}}
+[debug] [2022-05-26T20:12:44.025Z] [worker-pool] submitWork(triggerId=us-central1-api) {"metadata":{"emulator":{"name":"functions"},"message":"[worker-pool] submitWork(triggerId=us-central1-api)"}}
+[debug] [2022-05-26T20:12:44.025Z] [worker-us-central1-api-e6ec5184-e3ec-46b1-b357-1173aeb79391]: Assigning socketPath: /var/folders/_8/yx_r7j117s94zq1nkmkk_04r0000gn/T/fire_emu_13549.sock {"metadata":{"emulator":{"name":"functions"},"message":"[worker-us-central1-api-e6ec5184-e3ec-46b1-b357-1173aeb79391]: Assigning socketPath: /var/folders/_8/yx_r7j117s94zq1nkmkk_04r0000gn/T/fire_emu_13549.sock"}}
+[debug] [2022-05-26T20:12:44.025Z] [worker-us-central1-api-e6ec5184-e3ec-46b1-b357-1173aeb79391]: BUSY {"metadata":{"emulator":{"name":"functions"},"message":"[worker-us-central1-api-e6ec5184-e3ec-46b1-b357-1173aeb79391]: BUSY"}}
+[debug] [2022-05-26T20:12:44.637Z] [runtime-status] [13549] Functions runtime initialized. {"cwd":"/Users/arthursilva/code/restaurant-api-fork/functions","node_version":"16.15.0"} {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [13549] Functions runtime initialized. {\"cwd\":\"/Users/arthursilva/code/restaurant-api-fork/functions\",\"node_version\":\"16.15.0\"}"}}
+[debug] [2022-05-26T20:12:44.637Z] [runtime-status] [13549] Disabled runtime features: undefined {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [13549] Disabled runtime features: undefined"}}
+[debug] [2022-05-26T20:12:44.639Z] [runtime-status] [13549] Resolved module firebase-admin {"declared":true,"installed":true,"version":"10.1.0","resolution":"/Users/arthursilva/code/restaurant-api-fork/functions/node_modules/firebase-admin/lib/index.js"} {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [13549] Resolved module firebase-admin {\"declared\":true,\"installed\":true,\"version\":\"10.1.0\",\"resolution\":\"/Users/arthursilva/code/restaurant-api-fork/functions/node_modules/firebase-admin/lib/index.js\"}"}}
+[debug] [2022-05-26T20:12:44.639Z] [runtime-status] [13549] Resolved module firebase-functions {"declared":true,"installed":true,"version":"3.21.2","resolution":"/Users/arthursilva/code/restaurant-api-fork/functions/node_modules/firebase-functions/lib/index.js"} {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [13549] Resolved module firebase-functions {\"declared\":true,\"installed\":true,\"version\":\"3.21.2\",\"resolution\":\"/Users/arthursilva/code/restaurant-api-fork/functions/node_modules/firebase-functions/lib/index.js\"}"}}
+[debug] [2022-05-26T20:12:44.640Z] [runtime-status] [13549] Outgoing network have been stubbed. [{"name":"http","status":"mocked"},{"name":"http","status":"mocked"},{"name":"https","status":"mocked"},{"name":"https","status":"mocked"},{"name":"net","status":"mocked"}] {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [13549] Outgoing network have been stubbed. [{\"name\":\"http\",\"status\":\"mocked\"},{\"name\":\"http\",\"status\":\"mocked\"},{\"name\":\"https\",\"status\":\"mocked\"},{\"name\":\"https\",\"status\":\"mocked\"},{\"name\":\"net\",\"status\":\"mocked\"}]"}}
+[debug] [2022-05-26T20:12:44.640Z] [runtime-status] [13549] Resolved module firebase-functions {"declared":true,"installed":true,"version":"3.21.2","resolution":"/Users/arthursilva/code/restaurant-api-fork/functions/node_modules/firebase-functions/lib/index.js"} {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [13549] Resolved module firebase-functions {\"declared\":true,\"installed\":true,\"version\":\"3.21.2\",\"resolution\":\"/Users/arthursilva/code/restaurant-api-fork/functions/node_modules/firebase-functions/lib/index.js\"}"}}
+[debug] [2022-05-26T20:12:44.658Z] [runtime-status] [13549] Checked functions.config() {"config":{}} {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [13549] Checked functions.config() {\"config\":{}}"}}
+[debug] [2022-05-26T20:12:44.658Z] [runtime-status] [13549] firebase-functions has been stubbed. {"functionsResolution":{"declared":true,"installed":true,"version":"3.21.2","resolution":"/Users/arthursilva/code/restaurant-api-fork/functions/node_modules/firebase-functions/lib/index.js"}} {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [13549] firebase-functions has been stubbed. {\"functionsResolution\":{\"declared\":true,\"installed\":true,\"version\":\"3.21.2\",\"resolution\":\"/Users/arthursilva/code/restaurant-api-fork/functions/node_modules/firebase-functions/lib/index.js\"}}"}}
+[debug] [2022-05-26T20:12:44.659Z] [runtime-status] [13549] Resolved module firebase-functions {"declared":true,"installed":true,"version":"3.21.2","resolution":"/Users/arthursilva/code/restaurant-api-fork/functions/node_modules/firebase-functions/lib/index.js"} {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [13549] Resolved module firebase-functions {\"declared\":true,\"installed\":true,\"version\":\"3.21.2\",\"resolution\":\"/Users/arthursilva/code/restaurant-api-fork/functions/node_modules/firebase-functions/lib/index.js\"}"}}
+[debug] [2022-05-26T20:12:44.659Z] [runtime-status] [13549] Resolved module firebase-admin {"declared":true,"installed":true,"version":"10.1.0","resolution":"/Users/arthursilva/code/restaurant-api-fork/functions/node_modules/firebase-admin/lib/index.js"} {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [13549] Resolved module firebase-admin {\"declared\":true,\"installed\":true,\"version\":\"10.1.0\",\"resolution\":\"/Users/arthursilva/code/restaurant-api-fork/functions/node_modules/firebase-admin/lib/index.js\"}"}}
+[debug] [2022-05-26T20:12:44.659Z] [runtime-status] [13549] Resolved module firebase-functions {"declared":true,"installed":true,"version":"3.21.2","resolution":"/Users/arthursilva/code/restaurant-api-fork/functions/node_modules/firebase-functions/lib/index.js"} {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [13549] Resolved module firebase-functions {\"declared\":true,\"installed\":true,\"version\":\"3.21.2\",\"resolution\":\"/Users/arthursilva/code/restaurant-api-fork/functions/node_modules/firebase-functions/lib/index.js\"}"}}
+[debug] [2022-05-26T20:12:44.659Z] [runtime-status] [13549] firebase-admin has been stubbed. {"adminResolution":{"declared":true,"installed":true,"version":"10.1.0","resolution":"/Users/arthursilva/code/restaurant-api-fork/functions/node_modules/firebase-admin/lib/index.js"}} {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [13549] firebase-admin has been stubbed. {\"adminResolution\":{\"declared\":true,\"installed\":true,\"version\":\"10.1.0\",\"resolution\":\"/Users/arthursilva/code/restaurant-api-fork/functions/node_modules/firebase-admin/lib/index.js\"}}"}}
+[debug] [2022-05-26T20:12:44.823Z] [runtime-status] [13549] Beginning invocation function api! {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [13549] Beginning invocation function api!"}}
+[info] i  functions: Beginning execution of "api" {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"Beginning execution of \"api\""}}
+[debug] [2022-05-26T20:12:44.823Z] [runtime-status] [13549] Running api in signature http {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [13549] Running api in signature http"}}
+[debug] [2022-05-26T20:12:44.824Z] [runtime-status] [13549] Attempting to listen to socketPath: /var/folders/_8/yx_r7j117s94zq1nkmkk_04r0000gn/T/fire_emu_13549.sock {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [13549] Attempting to listen to socketPath: /var/folders/_8/yx_r7j117s94zq1nkmkk_04r0000gn/T/fire_emu_13549.sock"}}
+[debug] [2022-05-26T20:12:44.829Z] [functions] Runtime ready! Sending request! {"metadata":{"emulator":{"name":"functions"},"message":"[functions] Runtime ready! Sending request!"}}
+[debug] [2022-05-26T20:12:44.830Z] [functions] Got req.url=/my-first-firestore-as/us-central1/api/, mapping to path=/ {"metadata":{"emulator":{"name":"functions"},"message":"[functions] Got req.url=/my-first-firestore-as/us-central1/api/, mapping to path=/"}}
+[debug] [2022-05-26T20:12:44.839Z] [runtime-status] [13549] Ephemeral server handling POST request {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [13549] Ephemeral server handling POST request"}}
+[debug] [2022-05-26T20:12:44.842Z] [runtime-status] [13549] Ephemeral server survived. {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [13549] Ephemeral server survived."}}
+[debug] [2022-05-26T20:12:44.843Z] <<< [apiv2][status] POST http://localhost:5001/my-first-firestore-as/us-central1/api/ 404
+[debug] [2022-05-26T20:12:44.843Z] <<< [apiv2][body] POST http://localhost:5001/my-first-firestore-as/us-central1/api/ [stream]
+[info] i  hosting: 127.0.0.1 - - [26/May/2022:20:12:44 +0000] "POST / HTTP/1.1" 404 140 "-" "PostmanRuntime/7.29.0" {"metadata":{"emulator":{"name":"hosting"},"message":"127.0.0.1 - - [26/May/2022:20:12:44 +0000] \"POST / HTTP/1.1\" 404 140 \"-\" \"PostmanRuntime/7.29.0\""}}
+[info] i  functions: Finished "api" in ~1s {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"Finished \"api\" in ~1s"}}
+[debug] [2022-05-26T20:12:44.848Z] [worker-us-central1-api-e6ec5184-e3ec-46b1-b357-1173aeb79391]: IDLE {"metadata":{"emulator":{"name":"functions"},"message":"[worker-us-central1-api-e6ec5184-e3ec-46b1-b357-1173aeb79391]: IDLE"}}
+[debug] [2022-05-26T20:12:44.848Z] [work-queue] {"queueLength":0,"workRunningCount":0}
+[info] [hosting] Rewriting / to http://localhost:5001/my-first-firestore-as/us-central1/api for local Function us-central1/api
+[debug] [2022-05-26T20:12:48.259Z] >>> [apiv2][query] GET http://localhost:5001/my-first-firestore-as/us-central1/api/ 
+[info] i  hosting: 127.0.0.1 - - [26/May/2022:20:13:01 +0000] "GET / HTTP/1.1" - - "-" "PostmanRuntime/7.29.0" {"metadata":{"emulator":{"name":"hosting"},"message":"127.0.0.1 - - [26/May/2022:20:13:01 +0000] \"GET / HTTP/1.1\" - - \"-\" \"PostmanRuntime/7.29.0\""}}
+[info] [hosting] Rewriting /restaurants to http://localhost:5001/my-first-firestore-as/us-central1/api for local Function us-central1/api
+[debug] [2022-05-26T20:13:03.089Z] >>> [apiv2][query] GET http://localhost:5001/my-first-firestore-as/us-central1/api/restaurants 
+[info] [hosting] Rewriting /restaurants to http://localhost:5001/my-first-firestore-as/us-central1/api for local Function us-central1/api
+[debug] [2022-05-26T20:13:15.295Z] >>> [apiv2][query] GET http://localhost:5001/my-first-firestore-as/us-central1/api/restaurants 
+[debug] [2022-05-26T20:13:15.300Z] [work-queue] {"queueLength":1,"workRunningCount":0}
+[debug] [2022-05-26T20:13:15.301Z] [work-queue] {"queueLength":0,"workRunningCount":1}
+[debug] [2022-05-26T20:13:15.301Z] Accepted request GET /my-first-firestore-as/us-central1/api/restaurants --> us-central1-api
+[debug] [2022-05-26T20:13:15.301Z] [worker-pool] submitWork(triggerId=us-central1-api) {"metadata":{"emulator":{"name":"functions"},"message":"[worker-pool] submitWork(triggerId=us-central1-api)"}}
+[debug] [2022-05-26T20:13:15.308Z] [worker-us-central1-api-e6ec5184-e3ec-46b1-b357-1173aeb79391]: Assigning socketPath: /var/folders/_8/yx_r7j117s94zq1nkmkk_04r0000gn/T/fire_emu_13549.sock {"metadata":{"emulator":{"name":"functions"},"message":"[worker-us-central1-api-e6ec5184-e3ec-46b1-b357-1173aeb79391]: Assigning socketPath: /var/folders/_8/yx_r7j117s94zq1nkmkk_04r0000gn/T/fire_emu_13549.sock"}}
+[debug] [2022-05-26T20:13:15.308Z] [worker-us-central1-api-e6ec5184-e3ec-46b1-b357-1173aeb79391]: BUSY {"metadata":{"emulator":{"name":"functions"},"message":"[worker-us-central1-api-e6ec5184-e3ec-46b1-b357-1173aeb79391]: BUSY"}}
+[debug] [2022-05-26T20:13:15.310Z] [runtime-status] [13549] Beginning invocation function api! {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [13549] Beginning invocation function api!"}}
+[info] i  functions: Beginning execution of "api" {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"Beginning execution of \"api\""}}
+[debug] [2022-05-26T20:13:15.312Z] [runtime-status] [13549] Running api in signature http {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [13549] Running api in signature http"}}
+[debug] [2022-05-26T20:13:15.312Z] [runtime-status] [13549] Attempting to listen to socketPath: /var/folders/_8/yx_r7j117s94zq1nkmkk_04r0000gn/T/fire_emu_13549.sock {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [13549] Attempting to listen to socketPath: /var/folders/_8/yx_r7j117s94zq1nkmkk_04r0000gn/T/fire_emu_13549.sock"}}
+[debug] [2022-05-26T20:13:15.316Z] [functions] Runtime ready! Sending request! {"metadata":{"emulator":{"name":"functions"},"message":"[functions] Runtime ready! Sending request!"}}
+[debug] [2022-05-26T20:13:15.317Z] [functions] Got req.url=/my-first-firestore-as/us-central1/api/restaurants, mapping to path=/restaurants {"metadata":{"emulator":{"name":"functions"},"message":"[functions] Got req.url=/my-first-firestore-as/us-central1/api/restaurants, mapping to path=/restaurants"}}
+[debug] [2022-05-26T20:13:15.319Z] [runtime-status] [13549] Ephemeral server handling GET request {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [13549] Ephemeral server handling GET request"}}
+[debug] [2022-05-26T20:13:15.355Z] [runtime-status] [13549] Ephemeral server survived. {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [13549] Ephemeral server survived."}}
+[debug] [2022-05-26T20:13:16.699Z] <<< [apiv2][status] GET http://localhost:5001/my-first-firestore-as/us-central1/api/restaurants 200
+[debug] [2022-05-26T20:13:16.700Z] <<< [apiv2][body] GET http://localhost:5001/my-first-firestore-as/us-central1/api/restaurants [stream]
+[info] i  hosting: 127.0.0.1 - - [26/May/2022:20:13:16 +0000] "GET /restaurants HTTP/1.1" 200 717 "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.64 Safari/537.36" {"metadata":{"emulator":{"name":"hosting"},"message":"127.0.0.1 - - [26/May/2022:20:13:16 +0000] \"GET /restaurants HTTP/1.1\" 200 717 \"-\" \"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.64 Safari/537.36\""}}
+[info] i  functions: Finished "api" in ~1s {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"Finished \"api\" in ~1s"}}
+[debug] [2022-05-26T20:13:16.701Z] [worker-us-central1-api-e6ec5184-e3ec-46b1-b357-1173aeb79391]: IDLE {"metadata":{"emulator":{"name":"functions"},"message":"[worker-us-central1-api-e6ec5184-e3ec-46b1-b357-1173aeb79391]: IDLE"}}
+[debug] [2022-05-26T20:13:16.702Z] [work-queue] {"queueLength":0,"workRunningCount":0}
+[info] [hosting] Rewriting /favicon.ico to http://localhost:5001/my-first-firestore-as/us-central1/api for local Function us-central1/api
+[debug] [2022-05-26T20:13:16.763Z] >>> [apiv2][query] GET http://localhost:5001/my-first-firestore-as/us-central1/api/favicon.ico 
+[debug] [2022-05-26T20:13:16.767Z] [work-queue] {"queueLength":1,"workRunningCount":0}
+[debug] [2022-05-26T20:13:16.767Z] [work-queue] {"queueLength":0,"workRunningCount":1}
+[debug] [2022-05-26T20:13:16.767Z] Accepted request GET /my-first-firestore-as/us-central1/api/favicon.ico --> us-central1-api
+[debug] [2022-05-26T20:13:16.767Z] [worker-pool] submitWork(triggerId=us-central1-api) {"metadata":{"emulator":{"name":"functions"},"message":"[worker-pool] submitWork(triggerId=us-central1-api)"}}
+[debug] [2022-05-26T20:13:16.767Z] [worker-us-central1-api-e6ec5184-e3ec-46b1-b357-1173aeb79391]: Assigning socketPath: /var/folders/_8/yx_r7j117s94zq1nkmkk_04r0000gn/T/fire_emu_13549.sock {"metadata":{"emulator":{"name":"functions"},"message":"[worker-us-central1-api-e6ec5184-e3ec-46b1-b357-1173aeb79391]: Assigning socketPath: /var/folders/_8/yx_r7j117s94zq1nkmkk_04r0000gn/T/fire_emu_13549.sock"}}
+[debug] [2022-05-26T20:13:16.767Z] [worker-us-central1-api-e6ec5184-e3ec-46b1-b357-1173aeb79391]: BUSY {"metadata":{"emulator":{"name":"functions"},"message":"[worker-us-central1-api-e6ec5184-e3ec-46b1-b357-1173aeb79391]: BUSY"}}
+[debug] [2022-05-26T20:13:16.768Z] [runtime-status] [13549] Beginning invocation function api! {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [13549] Beginning invocation function api!"}}
+[info] i  functions: Beginning execution of "api" {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"Beginning execution of \"api\""}}
+[debug] [2022-05-26T20:13:16.769Z] [runtime-status] [13549] Running api in signature http {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [13549] Running api in signature http"}}
+[debug] [2022-05-26T20:13:16.769Z] [runtime-status] [13549] Attempting to listen to socketPath: /var/folders/_8/yx_r7j117s94zq1nkmkk_04r0000gn/T/fire_emu_13549.sock {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [13549] Attempting to listen to socketPath: /var/folders/_8/yx_r7j117s94zq1nkmkk_04r0000gn/T/fire_emu_13549.sock"}}
+[debug] [2022-05-26T20:13:16.771Z] [functions] Runtime ready! Sending request! {"metadata":{"emulator":{"name":"functions"},"message":"[functions] Runtime ready! Sending request!"}}
+[debug] [2022-05-26T20:13:16.771Z] [functions] Got req.url=/my-first-firestore-as/us-central1/api/favicon.ico, mapping to path=/favicon.ico {"metadata":{"emulator":{"name":"functions"},"message":"[functions] Got req.url=/my-first-firestore-as/us-central1/api/favicon.ico, mapping to path=/favicon.ico"}}
+[debug] [2022-05-26T20:13:16.773Z] [runtime-status] [13549] Ephemeral server handling GET request {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [13549] Ephemeral server handling GET request"}}
+[debug] [2022-05-26T20:13:16.776Z] [runtime-status] [13549] Ephemeral server survived. {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [13549] Ephemeral server survived."}}
+[debug] [2022-05-26T20:13:16.776Z] <<< [apiv2][status] GET http://localhost:5001/my-first-firestore-as/us-central1/api/favicon.ico 404
+[debug] [2022-05-26T20:13:16.776Z] <<< [apiv2][body] GET http://localhost:5001/my-first-firestore-as/us-central1/api/favicon.ico [stream]
+[info] i  hosting: 127.0.0.1 - - [26/May/2022:20:13:16 +0000] "GET /favicon.ico HTTP/1.1" 404 150 "http://localhost:5050/restaurants" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.64 Safari/537.36" {"metadata":{"emulator":{"name":"hosting"},"message":"127.0.0.1 - - [26/May/2022:20:13:16 +0000] \"GET /favicon.ico HTTP/1.1\" 404 150 \"http://localhost:5050/restaurants\" \"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.64 Safari/537.36\""}}
+[info] i  functions: Finished "api" in ~1s {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"Finished \"api\" in ~1s"}}
+[debug] [2022-05-26T20:13:16.778Z] [worker-us-central1-api-e6ec5184-e3ec-46b1-b357-1173aeb79391]: IDLE {"metadata":{"emulator":{"name":"functions"},"message":"[worker-us-central1-api-e6ec5184-e3ec-46b1-b357-1173aeb79391]: IDLE"}}
+[debug] [2022-05-26T20:13:16.778Z] [work-queue] {"queueLength":0,"workRunningCount":0}
+[info] i  hosting: 127.0.0.1 - - [26/May/2022:20:13:28 +0000] "GET /restaurants HTTP/1.1" - - "-" "PostmanRuntime/7.29.0" {"metadata":{"emulator":{"name":"hosting"},"message":"127.0.0.1 - - [26/May/2022:20:13:28 +0000] \"GET /restaurants HTTP/1.1\" - - \"-\" \"PostmanRuntime/7.29.0\""}}
+[info] [hosting] Rewriting /restaurants to http://localhost:5001/my-first-firestore-as/us-central1/api for local Function us-central1/api
+[debug] [2022-05-26T20:13:33.257Z] >>> [apiv2][query] GET http://localhost:5001/my-first-firestore-as/us-central1/api/restaurants 
+[info] i  hosting: 127.0.0.1 - - [26/May/2022:20:13:38 +0000] "GET /restaurants HTTP/1.1" - - "-" "PostmanRuntime/7.29.0" {"metadata":{"emulator":{"name":"hosting"},"message":"127.0.0.1 - - [26/May/2022:20:13:38 +0000] \"GET /restaurants HTTP/1.1\" - - \"-\" \"PostmanRuntime/7.29.0\""}}
+[info] [hosting] Rewriting /restaurants/ to http://localhost:5001/my-first-firestore-as/us-central1/api for local Function us-central1/api
+[debug] [2022-05-26T20:13:41.851Z] >>> [apiv2][query] GET http://localhost:5001/my-first-firestore-as/us-central1/api/restaurants/ 
+[debug] [2022-05-26T20:13:52.386Z] File /Users/arthursilva/code/restaurant-api-fork/functions/src/restaurants.js changed, reloading triggers {"metadata":{"emulator":{"name":"functions"},"message":"File /Users/arthursilva/code/restaurant-api-fork/functions/src/restaurants.js changed, reloading triggers"}}
+[debug] [2022-05-26T20:13:53.389Z] [worker-pool] Shutting down IDLE worker (us-central1-api) {"metadata":{"emulator":{"name":"functions"},"message":"[worker-pool] Shutting down IDLE worker (us-central1-api)"}}
+[debug] [2022-05-26T20:13:53.389Z] [worker-us-central1-api-e6ec5184-e3ec-46b1-b357-1173aeb79391]: FINISHING {"metadata":{"emulator":{"name":"functions"},"message":"[worker-us-central1-api-e6ec5184-e3ec-46b1-b357-1173aeb79391]: FINISHING"}}
+[debug] [2022-05-26T20:13:53.391Z] Validating nodejs source
+[debug] [2022-05-26T20:13:54.030Z] > [functions] package.json contents: {
+  "name": "restaurants-api",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.18.1",
+    "firebase-admin": "^10.1.0",
+    "firebase-functions": "^3.21.2"
+  }
+}
+[debug] [2022-05-26T20:13:54.031Z] Building nodejs source
+[debug] [2022-05-26T20:13:54.031Z] Analyzing nodejs backend spec
+[debug] [2022-05-26T20:13:54.034Z] [worker-us-central1-api-e6ec5184-e3ec-46b1-b357-1173aeb79391]: exited {"metadata":{"emulator":{"name":"functions"},"message":"[worker-us-central1-api-e6ec5184-e3ec-46b1-b357-1173aeb79391]: exited"}}
+[debug] [2022-05-26T20:13:54.034Z] [worker-us-central1-api-e6ec5184-e3ec-46b1-b357-1173aeb79391]: FINISHED {"metadata":{"emulator":{"name":"functions"},"message":"[worker-us-central1-api-e6ec5184-e3ec-46b1-b357-1173aeb79391]: FINISHED"}}
+[info] i  hosting: 127.0.0.1 - - [26/May/2022:20:13:55 +0000] "GET /restaurants/ HTTP/1.1" - - "-" "PostmanRuntime/7.29.0" {"metadata":{"emulator":{"name":"hosting"},"message":"127.0.0.1 - - [26/May/2022:20:13:55 +0000] \"GET /restaurants/ HTTP/1.1\" - - \"-\" \"PostmanRuntime/7.29.0\""}}
+[info] [hosting] Rewriting /restaurants/ to http://localhost:5001/my-first-firestore-as/us-central1/api for local Function us-central1/api
+[debug] [2022-05-26T20:13:56.227Z] >>> [apiv2][query] GET http://localhost:5001/my-first-firestore-as/us-central1/api/restaurants/ 
+[info] i  hosting: 127.0.0.1 - - [26/May/2022:20:14:56 +0000] "GET /restaurants/ HTTP/1.1" 504 - "-" "PostmanRuntime/7.29.0" {"metadata":{"emulator":{"name":"hosting"},"message":"127.0.0.1 - - [26/May/2022:20:14:56 +0000] \"GET /restaurants/ HTTP/1.1\" 504 - \"-\" \"PostmanRuntime/7.29.0\""}}
+[info] [hosting] Rewriting /restaurants to http://localhost:5001/my-first-firestore-as/us-central1/api for local Function us-central1/api
+[debug] [2022-05-26T20:15:17.439Z] >>> [apiv2][query] GET http://localhost:5001/my-first-firestore-as/us-central1/api/restaurants 
+[info] i  hosting: 127.0.0.1 - - [26/May/2022:20:15:27 +0000] "GET /restaurants HTTP/1.1" - - "-" "PostmanRuntime/7.29.0" {"metadata":{"emulator":{"name":"hosting"},"message":"127.0.0.1 - - [26/May/2022:20:15:27 +0000] \"GET /restaurants HTTP/1.1\" - - \"-\" \"PostmanRuntime/7.29.0\""}}
+[info] [hosting] Rewriting /restaurants to http://localhost:5001/my-first-firestore-as/us-central1/api for local Function us-central1/api
+[debug] [2022-05-26T20:15:29.736Z] >>> [apiv2][query] GET http://localhost:5001/my-first-firestore-as/us-central1/api/restaurants 
+[info] i  hosting: 127.0.0.1 - - [26/May/2022:20:15:51 +0000] "GET /restaurants HTTP/1.1" - - "-" "PostmanRuntime/7.29.0" {"metadata":{"emulator":{"name":"hosting"},"message":"127.0.0.1 - - [26/May/2022:20:15:51 +0000] \"GET /restaurants HTTP/1.1\" - - \"-\" \"PostmanRuntime/7.29.0\""}}
+[info] [hosting] Rewriting /restaurants to http://localhost:5001/my-first-firestore-as/us-central1/api for local Function us-central1/api
+[debug] [2022-05-26T20:15:52.796Z] >>> [apiv2][query] GET http://localhost:5001/my-first-firestore-as/us-central1/api/restaurants 
+[debug] [2022-05-26T20:15:52.798Z] [work-queue] {"queueLength":1,"workRunningCount":0}
+[debug] [2022-05-26T20:15:52.799Z] [work-queue] {"queueLength":0,"workRunningCount":1}
+[debug] [2022-05-26T20:15:52.799Z] Accepted request GET /my-first-firestore-as/us-central1/api/restaurants --> us-central1-api
+[debug] [2022-05-26T20:15:52.799Z] [worker-pool] Cleaned up workers for us-central1-api: 1 --> 0 {"metadata":{"emulator":{"name":"functions"},"message":"[worker-pool] Cleaned up workers for us-central1-api: 1 --> 0"}}
+[debug] [2022-05-26T20:15:52.807Z] [worker-pool] addWorker(us-central1-api) {"metadata":{"emulator":{"name":"functions"},"message":"[worker-pool] addWorker(us-central1-api)"}}
+[debug] [2022-05-26T20:15:52.808Z] [worker-pool] Adding worker with key us-central1-api, total=1 {"metadata":{"emulator":{"name":"functions"},"message":"[worker-pool] Adding worker with key us-central1-api, total=1"}}
+[debug] [2022-05-26T20:15:52.808Z] [worker-pool] submitWork(triggerId=us-central1-api) {"metadata":{"emulator":{"name":"functions"},"message":"[worker-pool] submitWork(triggerId=us-central1-api)"}}
+[debug] [2022-05-26T20:15:52.808Z] [worker-us-central1-api-e61748be-2fad-4361-b290-37481947ea19]: Assigning socketPath: /var/folders/_8/yx_r7j117s94zq1nkmkk_04r0000gn/T/fire_emu_13651.sock {"metadata":{"emulator":{"name":"functions"},"message":"[worker-us-central1-api-e61748be-2fad-4361-b290-37481947ea19]: Assigning socketPath: /var/folders/_8/yx_r7j117s94zq1nkmkk_04r0000gn/T/fire_emu_13651.sock"}}
+[debug] [2022-05-26T20:15:52.808Z] [worker-us-central1-api-e61748be-2fad-4361-b290-37481947ea19]: BUSY {"metadata":{"emulator":{"name":"functions"},"message":"[worker-us-central1-api-e61748be-2fad-4361-b290-37481947ea19]: BUSY"}}
+[debug] [2022-05-26T20:15:53.421Z] [runtime-status] [13651] Functions runtime initialized. {"cwd":"/Users/arthursilva/code/restaurant-api-fork/functions","node_version":"16.15.0"} {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [13651] Functions runtime initialized. {\"cwd\":\"/Users/arthursilva/code/restaurant-api-fork/functions\",\"node_version\":\"16.15.0\"}"}}
+[debug] [2022-05-26T20:15:53.421Z] [runtime-status] [13651] Disabled runtime features: undefined {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [13651] Disabled runtime features: undefined"}}
+[debug] [2022-05-26T20:15:53.422Z] [runtime-status] [13651] Resolved module firebase-admin {"declared":true,"installed":true,"version":"10.1.0","resolution":"/Users/arthursilva/code/restaurant-api-fork/functions/node_modules/firebase-admin/lib/index.js"} {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [13651] Resolved module firebase-admin {\"declared\":true,\"installed\":true,\"version\":\"10.1.0\",\"resolution\":\"/Users/arthursilva/code/restaurant-api-fork/functions/node_modules/firebase-admin/lib/index.js\"}"}}
+[debug] [2022-05-26T20:15:53.423Z] [runtime-status] [13651] Resolved module firebase-functions {"declared":true,"installed":true,"version":"3.21.2","resolution":"/Users/arthursilva/code/restaurant-api-fork/functions/node_modules/firebase-functions/lib/index.js"} {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [13651] Resolved module firebase-functions {\"declared\":true,\"installed\":true,\"version\":\"3.21.2\",\"resolution\":\"/Users/arthursilva/code/restaurant-api-fork/functions/node_modules/firebase-functions/lib/index.js\"}"}}
+[debug] [2022-05-26T20:15:53.423Z] [runtime-status] [13651] Outgoing network have been stubbed. [{"name":"http","status":"mocked"},{"name":"http","status":"mocked"},{"name":"https","status":"mocked"},{"name":"https","status":"mocked"},{"name":"net","status":"mocked"}] {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [13651] Outgoing network have been stubbed. [{\"name\":\"http\",\"status\":\"mocked\"},{\"name\":\"http\",\"status\":\"mocked\"},{\"name\":\"https\",\"status\":\"mocked\"},{\"name\":\"https\",\"status\":\"mocked\"},{\"name\":\"net\",\"status\":\"mocked\"}]"}}
+[debug] [2022-05-26T20:15:53.423Z] [runtime-status] [13651] Resolved module firebase-functions {"declared":true,"installed":true,"version":"3.21.2","resolution":"/Users/arthursilva/code/restaurant-api-fork/functions/node_modules/firebase-functions/lib/index.js"} {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [13651] Resolved module firebase-functions {\"declared\":true,\"installed\":true,\"version\":\"3.21.2\",\"resolution\":\"/Users/arthursilva/code/restaurant-api-fork/functions/node_modules/firebase-functions/lib/index.js\"}"}}
+[debug] [2022-05-26T20:15:53.442Z] [runtime-status] [13651] Checked functions.config() {"config":{}} {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [13651] Checked functions.config() {\"config\":{}}"}}
+[debug] [2022-05-26T20:15:53.442Z] [runtime-status] [13651] firebase-functions has been stubbed. {"functionsResolution":{"declared":true,"installed":true,"version":"3.21.2","resolution":"/Users/arthursilva/code/restaurant-api-fork/functions/node_modules/firebase-functions/lib/index.js"}} {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [13651] firebase-functions has been stubbed. {\"functionsResolution\":{\"declared\":true,\"installed\":true,\"version\":\"3.21.2\",\"resolution\":\"/Users/arthursilva/code/restaurant-api-fork/functions/node_modules/firebase-functions/lib/index.js\"}}"}}
+[debug] [2022-05-26T20:15:53.442Z] [runtime-status] [13651] Resolved module firebase-functions {"declared":true,"installed":true,"version":"3.21.2","resolution":"/Users/arthursilva/code/restaurant-api-fork/functions/node_modules/firebase-functions/lib/index.js"} {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [13651] Resolved module firebase-functions {\"declared\":true,\"installed\":true,\"version\":\"3.21.2\",\"resolution\":\"/Users/arthursilva/code/restaurant-api-fork/functions/node_modules/firebase-functions/lib/index.js\"}"}}
+[debug] [2022-05-26T20:15:53.443Z] [runtime-status] [13651] Resolved module firebase-admin {"declared":true,"installed":true,"version":"10.1.0","resolution":"/Users/arthursilva/code/restaurant-api-fork/functions/node_modules/firebase-admin/lib/index.js"} {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [13651] Resolved module firebase-admin {\"declared\":true,\"installed\":true,\"version\":\"10.1.0\",\"resolution\":\"/Users/arthursilva/code/restaurant-api-fork/functions/node_modules/firebase-admin/lib/index.js\"}"}}
+[debug] [2022-05-26T20:15:53.443Z] [runtime-status] [13651] Resolved module firebase-functions {"declared":true,"installed":true,"version":"3.21.2","resolution":"/Users/arthursilva/code/restaurant-api-fork/functions/node_modules/firebase-functions/lib/index.js"} {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [13651] Resolved module firebase-functions {\"declared\":true,\"installed\":true,\"version\":\"3.21.2\",\"resolution\":\"/Users/arthursilva/code/restaurant-api-fork/functions/node_modules/firebase-functions/lib/index.js\"}"}}
+[debug] [2022-05-26T20:15:53.443Z] [runtime-status] [13651] firebase-admin has been stubbed. {"adminResolution":{"declared":true,"installed":true,"version":"10.1.0","resolution":"/Users/arthursilva/code/restaurant-api-fork/functions/node_modules/firebase-admin/lib/index.js"}} {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [13651] firebase-admin has been stubbed. {\"adminResolution\":{\"declared\":true,\"installed\":true,\"version\":\"10.1.0\",\"resolution\":\"/Users/arthursilva/code/restaurant-api-fork/functions/node_modules/firebase-admin/lib/index.js\"}}"}}
+[debug] [2022-05-26T20:15:53.604Z] [runtime-status] [13651] Beginning invocation function api! {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [13651] Beginning invocation function api!"}}
+[info] i  functions: Beginning execution of "api" {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"Beginning execution of \"api\""}}
+[debug] [2022-05-26T20:15:53.604Z] [runtime-status] [13651] Running api in signature http {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [13651] Running api in signature http"}}
+[debug] [2022-05-26T20:15:53.605Z] [runtime-status] [13651] Attempting to listen to socketPath: /var/folders/_8/yx_r7j117s94zq1nkmkk_04r0000gn/T/fire_emu_13651.sock {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [13651] Attempting to listen to socketPath: /var/folders/_8/yx_r7j117s94zq1nkmkk_04r0000gn/T/fire_emu_13651.sock"}}
+[debug] [2022-05-26T20:15:53.610Z] [functions] Runtime ready! Sending request! {"metadata":{"emulator":{"name":"functions"},"message":"[functions] Runtime ready! Sending request!"}}
+[debug] [2022-05-26T20:15:53.611Z] [functions] Got req.url=/my-first-firestore-as/us-central1/api/restaurants, mapping to path=/restaurants {"metadata":{"emulator":{"name":"functions"},"message":"[functions] Got req.url=/my-first-firestore-as/us-central1/api/restaurants, mapping to path=/restaurants"}}
+[debug] [2022-05-26T20:15:53.613Z] [runtime-status] [13651] Ephemeral server handling GET request {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [13651] Ephemeral server handling GET request"}}
+[debug] [2022-05-26T20:15:53.634Z] [runtime-status] [13651] Ephemeral server survived. {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [13651] Ephemeral server survived."}}
+[debug] [2022-05-26T20:15:54.312Z] <<< [apiv2][status] GET http://localhost:5001/my-first-firestore-as/us-central1/api/restaurants 200
+[debug] [2022-05-26T20:15:54.312Z] <<< [apiv2][body] GET http://localhost:5001/my-first-firestore-as/us-central1/api/restaurants [stream]
+[info] i  hosting: 127.0.0.1 - - [26/May/2022:20:15:54 +0000] "GET /restaurants HTTP/1.1" 200 717 "-" "PostmanRuntime/7.29.0" {"metadata":{"emulator":{"name":"hosting"},"message":"127.0.0.1 - - [26/May/2022:20:15:54 +0000] \"GET /restaurants HTTP/1.1\" 200 717 \"-\" \"PostmanRuntime/7.29.0\""}}
+[info] i  functions: Finished "api" in ~1s {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"Finished \"api\" in ~1s"}}
+[debug] [2022-05-26T20:15:54.314Z] [worker-us-central1-api-e61748be-2fad-4361-b290-37481947ea19]: IDLE {"metadata":{"emulator":{"name":"functions"},"message":"[worker-us-central1-api-e61748be-2fad-4361-b290-37481947ea19]: IDLE"}}
+[debug] [2022-05-26T20:15:54.314Z] [work-queue] {"queueLength":0,"workRunningCount":0}
+[info] [hosting] Rewriting /restaurants/0qSTbqXozwavmjAfglUi/rating to http://localhost:5001/my-first-firestore-as/us-central1/api for local Function us-central1/api
+[debug] [2022-05-26T20:17:00.734Z] >>> [apiv2][query] PATCH http://localhost:5001/my-first-firestore-as/us-central1/api/restaurants/0qSTbqXozwavmjAfglUi/rating 
+[debug] [2022-05-26T20:17:00.735Z] >>> [apiv2][body] PATCH http://localhost:5001/my-first-firestore-as/us-central1/api/restaurants/0qSTbqXozwavmjAfglUi/rating [stream]
+[debug] [2022-05-26T20:17:00.737Z] [work-queue] {"queueLength":1,"workRunningCount":0}
+[debug] [2022-05-26T20:17:00.737Z] [work-queue] {"queueLength":0,"workRunningCount":1}
+[debug] [2022-05-26T20:17:00.737Z] Accepted request PATCH /my-first-firestore-as/us-central1/api/restaurants/0qSTbqXozwavmjAfglUi/rating --> us-central1-api
+[debug] [2022-05-26T20:17:00.737Z] [worker-pool] submitWork(triggerId=us-central1-api) {"metadata":{"emulator":{"name":"functions"},"message":"[worker-pool] submitWork(triggerId=us-central1-api)"}}
+[debug] [2022-05-26T20:17:00.737Z] [worker-us-central1-api-e61748be-2fad-4361-b290-37481947ea19]: Assigning socketPath: /var/folders/_8/yx_r7j117s94zq1nkmkk_04r0000gn/T/fire_emu_13651.sock {"metadata":{"emulator":{"name":"functions"},"message":"[worker-us-central1-api-e61748be-2fad-4361-b290-37481947ea19]: Assigning socketPath: /var/folders/_8/yx_r7j117s94zq1nkmkk_04r0000gn/T/fire_emu_13651.sock"}}
+[debug] [2022-05-26T20:17:00.737Z] [worker-us-central1-api-e61748be-2fad-4361-b290-37481947ea19]: BUSY {"metadata":{"emulator":{"name":"functions"},"message":"[worker-us-central1-api-e61748be-2fad-4361-b290-37481947ea19]: BUSY"}}
+[debug] [2022-05-26T20:17:00.738Z] [runtime-status] [13651] Beginning invocation function api! {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [13651] Beginning invocation function api!"}}
+[info] i  functions: Beginning execution of "api" {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"Beginning execution of \"api\""}}
+[debug] [2022-05-26T20:17:00.739Z] [runtime-status] [13651] Running api in signature http {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [13651] Running api in signature http"}}
+[debug] [2022-05-26T20:17:00.740Z] [runtime-status] [13651] Attempting to listen to socketPath: /var/folders/_8/yx_r7j117s94zq1nkmkk_04r0000gn/T/fire_emu_13651.sock {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [13651] Attempting to listen to socketPath: /var/folders/_8/yx_r7j117s94zq1nkmkk_04r0000gn/T/fire_emu_13651.sock"}}
+[debug] [2022-05-26T20:17:00.743Z] [functions] Runtime ready! Sending request! {"metadata":{"emulator":{"name":"functions"},"message":"[functions] Runtime ready! Sending request!"}}
+[debug] [2022-05-26T20:17:00.743Z] [functions] Got req.url=/my-first-firestore-as/us-central1/api/restaurants/0qSTbqXozwavmjAfglUi/rating, mapping to path=/restaurants/0qSTbqXozwavmjAfglUi/rating {"metadata":{"emulator":{"name":"functions"},"message":"[functions] Got req.url=/my-first-firestore-as/us-central1/api/restaurants/0qSTbqXozwavmjAfglUi/rating, mapping to path=/restaurants/0qSTbqXozwavmjAfglUi/rating"}}
+[debug] [2022-05-26T20:17:00.757Z] [runtime-status] [13651] Ephemeral server handling PATCH request {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [13651] Ephemeral server handling PATCH request"}}
+[debug] [2022-05-26T20:17:00.758Z] [runtime-status] [13651] Ephemeral server survived. {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [13651] Ephemeral server survived."}}
+[debug] [2022-05-26T20:17:01.399Z] <<< [apiv2][status] PATCH http://localhost:5001/my-first-firestore-as/us-central1/api/restaurants/0qSTbqXozwavmjAfglUi/rating 200
+[debug] [2022-05-26T20:17:01.399Z] <<< [apiv2][body] PATCH http://localhost:5001/my-first-firestore-as/us-central1/api/restaurants/0qSTbqXozwavmjAfglUi/rating [stream]
+[info] i  hosting: 127.0.0.1 - - [26/May/2022:20:17:01 +0000] "PATCH /restaurants/0qSTbqXozwavmjAfglUi/rating HTTP/1.1" 200 237 "-" "PostmanRuntime/7.29.0" {"metadata":{"emulator":{"name":"hosting"},"message":"127.0.0.1 - - [26/May/2022:20:17:01 +0000] \"PATCH /restaurants/0qSTbqXozwavmjAfglUi/rating HTTP/1.1\" 200 237 \"-\" \"PostmanRuntime/7.29.0\""}}
+[info] i  functions: Finished "api" in ~1s {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"Finished \"api\" in ~1s"}}
+[debug] [2022-05-26T20:17:01.402Z] [worker-us-central1-api-e61748be-2fad-4361-b290-37481947ea19]: IDLE {"metadata":{"emulator":{"name":"functions"},"message":"[worker-us-central1-api-e61748be-2fad-4361-b290-37481947ea19]: IDLE"}}
+[debug] [2022-05-26T20:17:01.403Z] [work-queue] {"queueLength":0,"workRunningCount":0}
+[info] [hosting] Rewriting /restaurants/0qSTbqXozwavmjAfglUi/rating to http://localhost:5001/my-first-firestore-as/us-central1/api for local Function us-central1/api
+[debug] [2022-05-26T20:17:07.486Z] >>> [apiv2][query] PATCH http://localhost:5001/my-first-firestore-as/us-central1/api/restaurants/0qSTbqXozwavmjAfglUi/rating 
+[debug] [2022-05-26T20:17:07.486Z] >>> [apiv2][body] PATCH http://localhost:5001/my-first-firestore-as/us-central1/api/restaurants/0qSTbqXozwavmjAfglUi/rating [stream]
+[debug] [2022-05-26T20:17:07.487Z] [work-queue] {"queueLength":1,"workRunningCount":0}
+[debug] [2022-05-26T20:17:07.488Z] [work-queue] {"queueLength":0,"workRunningCount":1}
+[debug] [2022-05-26T20:17:07.488Z] Accepted request PATCH /my-first-firestore-as/us-central1/api/restaurants/0qSTbqXozwavmjAfglUi/rating --> us-central1-api
+[debug] [2022-05-26T20:17:07.488Z] [worker-pool] submitWork(triggerId=us-central1-api) {"metadata":{"emulator":{"name":"functions"},"message":"[worker-pool] submitWork(triggerId=us-central1-api)"}}
+[debug] [2022-05-26T20:17:07.488Z] [worker-us-central1-api-e61748be-2fad-4361-b290-37481947ea19]: Assigning socketPath: /var/folders/_8/yx_r7j117s94zq1nkmkk_04r0000gn/T/fire_emu_13651.sock {"metadata":{"emulator":{"name":"functions"},"message":"[worker-us-central1-api-e61748be-2fad-4361-b290-37481947ea19]: Assigning socketPath: /var/folders/_8/yx_r7j117s94zq1nkmkk_04r0000gn/T/fire_emu_13651.sock"}}
+[debug] [2022-05-26T20:17:07.488Z] [worker-us-central1-api-e61748be-2fad-4361-b290-37481947ea19]: BUSY {"metadata":{"emulator":{"name":"functions"},"message":"[worker-us-central1-api-e61748be-2fad-4361-b290-37481947ea19]: BUSY"}}
+[debug] [2022-05-26T20:17:07.488Z] [runtime-status] [13651] Beginning invocation function api! {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [13651] Beginning invocation function api!"}}
+[info] i  functions: Beginning execution of "api" {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"Beginning execution of \"api\""}}
+[debug] [2022-05-26T20:17:07.489Z] [runtime-status] [13651] Running api in signature http {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [13651] Running api in signature http"}}
+[debug] [2022-05-26T20:17:07.489Z] [runtime-status] [13651] Attempting to listen to socketPath: /var/folders/_8/yx_r7j117s94zq1nkmkk_04r0000gn/T/fire_emu_13651.sock {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [13651] Attempting to listen to socketPath: /var/folders/_8/yx_r7j117s94zq1nkmkk_04r0000gn/T/fire_emu_13651.sock"}}
+[debug] [2022-05-26T20:17:07.491Z] [functions] Runtime ready! Sending request! {"metadata":{"emulator":{"name":"functions"},"message":"[functions] Runtime ready! Sending request!"}}
+[debug] [2022-05-26T20:17:07.492Z] [functions] Got req.url=/my-first-firestore-as/us-central1/api/restaurants/0qSTbqXozwavmjAfglUi/rating, mapping to path=/restaurants/0qSTbqXozwavmjAfglUi/rating {"metadata":{"emulator":{"name":"functions"},"message":"[functions] Got req.url=/my-first-firestore-as/us-central1/api/restaurants/0qSTbqXozwavmjAfglUi/rating, mapping to path=/restaurants/0qSTbqXozwavmjAfglUi/rating"}}
+[debug] [2022-05-26T20:17:07.495Z] [runtime-status] [13651] Ephemeral server handling PATCH request {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [13651] Ephemeral server handling PATCH request"}}
+[debug] [2022-05-26T20:17:07.496Z] [runtime-status] [13651] Ephemeral server survived. {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [13651] Ephemeral server survived."}}
+[debug] [2022-05-26T20:17:07.953Z] <<< [apiv2][status] PATCH http://localhost:5001/my-first-firestore-as/us-central1/api/restaurants/0qSTbqXozwavmjAfglUi/rating 200
+[debug] [2022-05-26T20:17:07.953Z] <<< [apiv2][body] PATCH http://localhost:5001/my-first-firestore-as/us-central1/api/restaurants/0qSTbqXozwavmjAfglUi/rating [stream]
+[info] i  hosting: 127.0.0.1 - - [26/May/2022:20:17:07 +0000] "PATCH /restaurants/0qSTbqXozwavmjAfglUi/rating HTTP/1.1" 200 241 "-" "PostmanRuntime/7.29.0" {"metadata":{"emulator":{"name":"hosting"},"message":"127.0.0.1 - - [26/May/2022:20:17:07 +0000] \"PATCH /restaurants/0qSTbqXozwavmjAfglUi/rating HTTP/1.1\" 200 241 \"-\" \"PostmanRuntime/7.29.0\""}}
+[info] i  functions: Finished "api" in ~1s {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"Finished \"api\" in ~1s"}}
+[debug] [2022-05-26T20:17:07.954Z] [worker-us-central1-api-e61748be-2fad-4361-b290-37481947ea19]: IDLE {"metadata":{"emulator":{"name":"functions"},"message":"[worker-us-central1-api-e61748be-2fad-4361-b290-37481947ea19]: IDLE"}}
+[debug] [2022-05-26T20:17:07.954Z] [work-queue] {"queueLength":0,"workRunningCount":0}
+[info] [hosting] Rewriting /restaurants to http://localhost:5001/my-first-firestore-as/us-central1/api for local Function us-central1/api
+[debug] [2022-05-26T20:17:13.183Z] >>> [apiv2][query] GET http://localhost:5001/my-first-firestore-as/us-central1/api/restaurants 
+[debug] [2022-05-26T20:17:13.185Z] [work-queue] {"queueLength":1,"workRunningCount":0}
+[debug] [2022-05-26T20:17:13.185Z] [work-queue] {"queueLength":0,"workRunningCount":1}
+[debug] [2022-05-26T20:17:13.185Z] Accepted request GET /my-first-firestore-as/us-central1/api/restaurants --> us-central1-api
+[debug] [2022-05-26T20:17:13.185Z] [worker-pool] submitWork(triggerId=us-central1-api) {"metadata":{"emulator":{"name":"functions"},"message":"[worker-pool] submitWork(triggerId=us-central1-api)"}}
+[debug] [2022-05-26T20:17:13.185Z] [worker-us-central1-api-e61748be-2fad-4361-b290-37481947ea19]: Assigning socketPath: /var/folders/_8/yx_r7j117s94zq1nkmkk_04r0000gn/T/fire_emu_13651.sock {"metadata":{"emulator":{"name":"functions"},"message":"[worker-us-central1-api-e61748be-2fad-4361-b290-37481947ea19]: Assigning socketPath: /var/folders/_8/yx_r7j117s94zq1nkmkk_04r0000gn/T/fire_emu_13651.sock"}}
+[debug] [2022-05-26T20:17:13.185Z] [worker-us-central1-api-e61748be-2fad-4361-b290-37481947ea19]: BUSY {"metadata":{"emulator":{"name":"functions"},"message":"[worker-us-central1-api-e61748be-2fad-4361-b290-37481947ea19]: BUSY"}}
+[debug] [2022-05-26T20:17:13.186Z] [runtime-status] [13651] Beginning invocation function api! {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [13651] Beginning invocation function api!"}}
+[info] i  functions: Beginning execution of "api" {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"Beginning execution of \"api\""}}
+[debug] [2022-05-26T20:17:13.186Z] [runtime-status] [13651] Running api in signature http {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [13651] Running api in signature http"}}
+[debug] [2022-05-26T20:17:13.186Z] [runtime-status] [13651] Attempting to listen to socketPath: /var/folders/_8/yx_r7j117s94zq1nkmkk_04r0000gn/T/fire_emu_13651.sock {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [13651] Attempting to listen to socketPath: /var/folders/_8/yx_r7j117s94zq1nkmkk_04r0000gn/T/fire_emu_13651.sock"}}
+[debug] [2022-05-26T20:17:13.189Z] [functions] Runtime ready! Sending request! {"metadata":{"emulator":{"name":"functions"},"message":"[functions] Runtime ready! Sending request!"}}
+[debug] [2022-05-26T20:17:13.189Z] [functions] Got req.url=/my-first-firestore-as/us-central1/api/restaurants, mapping to path=/restaurants {"metadata":{"emulator":{"name":"functions"},"message":"[functions] Got req.url=/my-first-firestore-as/us-central1/api/restaurants, mapping to path=/restaurants"}}
+[debug] [2022-05-26T20:17:13.191Z] [runtime-status] [13651] Ephemeral server handling GET request {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [13651] Ephemeral server handling GET request"}}
+[debug] [2022-05-26T20:17:13.192Z] [runtime-status] [13651] Ephemeral server survived. {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [13651] Ephemeral server survived."}}
+[debug] [2022-05-26T20:17:13.299Z] <<< [apiv2][status] GET http://localhost:5001/my-first-firestore-as/us-central1/api/restaurants 200
+[debug] [2022-05-26T20:17:13.299Z] <<< [apiv2][body] GET http://localhost:5001/my-first-firestore-as/us-central1/api/restaurants [stream]
+[info] i  hosting: 127.0.0.1 - - [26/May/2022:20:17:13 +0000] "GET /restaurants HTTP/1.1" 200 751 "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.64 Safari/537.36" {"metadata":{"emulator":{"name":"hosting"},"message":"127.0.0.1 - - [26/May/2022:20:17:13 +0000] \"GET /restaurants HTTP/1.1\" 200 751 \"-\" \"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.64 Safari/537.36\""}}
+[info] i  functions: Finished "api" in ~1s {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"Finished \"api\" in ~1s"}}
+[debug] [2022-05-26T20:17:13.302Z] [worker-us-central1-api-e61748be-2fad-4361-b290-37481947ea19]: IDLE {"metadata":{"emulator":{"name":"functions"},"message":"[worker-us-central1-api-e61748be-2fad-4361-b290-37481947ea19]: IDLE"}}
+[debug] [2022-05-26T20:17:13.303Z] [work-queue] {"queueLength":0,"workRunningCount":0}
